@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SelfCare</string>
+    <string name="reminder_button_name">Reminders</string>
+    <string name="note_button_name">Notes</string>
+    <string name="lookup_button_name">Medication \nLookup</string>
+    <string name="settings_button_name">Settings</string>
+    <string name="subject_hint">Title</string>
+    <string name="note_hint">Note</string>
+    <string name="no_notes">Click on the plus to add a note!</string>
+    <string name="created">Created:</string>
+    <string name="theme">Theme Color:</string>
+    <string name="no_alarms">Click on the plus to add a reminder!</string>
+    <string name="no_search">Enter a medication name and press search to learn more about it!</string>
+    <string name="appts">Appointments</string>
+    <string name="meds">Medications</string>
+    <string name="appt_hint">Appointment Name</string>
+    <string name="med_hint">Medication Name</string>
+    <string name="defaultTime">Select time</string>
+    <string name="defaultDate">Select date</string>
+    <string name="repeat">Repeat:</string>
+    <string name="oneTime">Don\'t Repeat</string>
+    <string name="daily">Every Day</string>
+    <string name="description"> Description:</string>
+    <string name="sideEff"> Side Effects:</string>
+    <string name="tips"> Tips:</string>
+    <string name="link"> Link for more information:</string>
+    <string name="results">No results found</string>
+    <string name="spelling">Check your spelling and try again</string>
+    <string name="search">Search</string>
+    <string name="empty_search">Search cannot be empty</string>
+    <string name="iodine">Medication information by </string>
+    <string name="iodineLogo">Iodine Logo</string>
+    <string name="badRequest">Bad request</string>
+    <string name="newFirst">Newest first</string>
+    <string name="oldFirst">Oldest first</string>
+    <string name="sort_by">Sort notes by:</string>
+</resources>

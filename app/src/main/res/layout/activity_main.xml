@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    tools:context="com.example.mzw5443.selfcare.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnPillLookup"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/white"
+                android:drawableTop="@drawable/search_black_50dp"
+                android:onClick="onClick"
+                android:paddingBottom="25dp"
+                android:paddingTop="25dp"
+                android:text="@string/lookup_button_name"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/btnSettings"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnReminders"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="4dp" />
+
+            <Button
+                android:id="@+id/btnReminders"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/white"
+                android:drawablePadding="2dp"
+                android:drawableTop="@drawable/alarm_black"
+                android:onClick="onClick"
+                android:paddingBottom="25dp"
+                android:paddingTop="25dp"
+                android:text="@string/reminder_button_name"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/btnNotes"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="4dp" />
+
+            <Button
+                android:id="@+id/btnSettings"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/white"
+                android:drawableTop="@drawable/settings_black"
+                android:onClick="onClick"
+                android:paddingBottom="25dp"
+                android:paddingTop="25dp"
+                android:text="@string/settings_button_name"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnPillLookup"
+                app:layout_constraintTop_toBottomOf="@+id/btnNotes"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="2dp" />
+
+            <Button
+                android:id="@+id/btnNotes"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/white"
+                android:drawableTop="@drawable/add_notes_black"
+                android:onClick="onClick"
+                android:paddingBottom="25dp"
+                android:paddingTop="25dp"
+                android:text="@string/note_button_name"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnReminders"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="2dp" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
