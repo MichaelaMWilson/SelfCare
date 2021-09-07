@@ -1,5 +1,6 @@
 # SelfCare
 Android application developed for App Development course
+
 This app was created for a course at Penn State Harrisburg, CMPSC 475 App Programming.
 Written in Java, using Android Studio.
 Utilizes a SQLite database and the Iodine API. You will need your own API key if you'd like to run the app yourself.
